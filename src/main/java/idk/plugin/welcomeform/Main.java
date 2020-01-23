@@ -22,9 +22,9 @@ public class Main extends PluginBase implements Listener {
         saveDefaultConfig();
         button = getConfig().getBoolean("showButton", true);
         delay = getConfig().getInt("secondsAfterJoin", 5);
-        title = getConfig().getString("formTitle", "§aExample").replace("§", "\u00A7").replace("%n", "\n");
-        text= getConfig().getString("formText", "§eYou can edit this text in config. %n%n%n%n%n%n%n%n%n%n%n%n §r§bPlugin created by §dPetteriM1").replace("§", "\u00A7").replace("%n", "\n");
-        buttonText = getConfig().getString("buttonText", "§6Okay").replace("§", "\u00A7").replace("%n", "\n");
+        title = getConfig().getString("formTitle", "§aExample").replace("%n", "\n");
+        text= getConfig().getString("formText", "§eYou can edit this text in config. %n%n%n%n%n%n%n%n%n%n%n%n §r§bPlugin created by §dPetteriM1").replace("%n", "\n");
+        buttonText = getConfig().getString("buttonText", "§6Okay").replace("%n", "\n");
     }
 
     @EventHandler
